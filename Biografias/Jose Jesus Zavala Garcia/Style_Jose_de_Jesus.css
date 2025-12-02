@@ -1,0 +1,70 @@
+body{
+    color: white;
+    background-color: rgb(28, 31, 38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo{
+    font-size: 14px;
+}
+
+#estructura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    margin: 20px;
+}
+
+#texto{
+    border-radius: 10px;
+    height: auto;
+    width: 1100px;
+    background-color: rgb(22, 24, 28);
+    border: 2px solid rgba(164, 163, 182, 0.088);
+    box-shadow: 5px 5px 0px 0px rgba(164, 163, 182, 0.088);
+    padding: 20px;
+}
+
+#perFoto{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#fotoBox{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(22, 24, 28);
+    border: 2px solid rgba(164, 163, 182, 0.088);
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+    border: 2px solid rgb(22, 24, 28);
+}
+
+#tituloBox{
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    background-color: rgb(22, 24, 28);
+    border: 2px solid rgba(164, 163, 182, 0.088);
+    box-shadow: 5px 5px 0px 0px rgba(164, 163, 182, 0.088);
+    padding: 20px;
+    margin: 0 0 50px 0;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+#biografia{
+    width: 950px;
+    height: auto;
+    font-size: 18px;
+}
